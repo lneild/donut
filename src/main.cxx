@@ -1,9 +1,9 @@
-#include "donut.hxx"
+// #include "donut.hxx"
 
 #include <stdio.h>
-// #include <string.h>
-// #include <time.h>
-// #include <cmath>
+#include <string.h>
+#include <time.h>
+#include <cmath>
 
 
 int main(){
@@ -38,7 +38,7 @@ int main(){
 
         // delay(30);//delay can be changed as per requirement to speed up the trasitions
 
-        int milli_seconds = 1000 * 30;
+        int milli_seconds = 1000 * 20;
         clock_t start_time = clock();
         while (clock() < start_time + milli_seconds)
             ;
